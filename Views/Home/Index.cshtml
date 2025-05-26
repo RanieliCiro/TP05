@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Escape de Alcatraz</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding-top: 10%;
+            background-image: url("/img/alcatraz-background.jpg"); /* si querés agregar una imagen en wwwroot/img */
+            background-size: cover;
+            background-position: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ff4d4d;
+            text-shadow: 2px 2px #000;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+        .boton {
+            margin-top: 40px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #ff4d4d;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .boton:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escape de Alcatraz</h1>
+    <p>¿Serás capaz de salir antes de que te atrapen?</p>
+    <form method="get" action="@Url.Action("Introduccion", "Home")">
+        <button type="submit" class="boton">Empezar a jugar</button>
+    </form>
+</body>
+</html>

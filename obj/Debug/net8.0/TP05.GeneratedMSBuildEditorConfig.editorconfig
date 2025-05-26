@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TP05
+build_property.RootNamespace = TP05
+build_property.ProjectDir = Z:\EscapeRoom\TP05\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = Z:\EscapeRoom\TP05
+build_property._RazorSourceGeneratorDebug = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Bitacora.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCaXRhY29yYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Eltiempocorre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbHRpZW1wb2NvcnJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Introduccion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnRyb2R1Y2Npb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Mapa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYXBhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Pistas1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaXN0YXMxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Pistas2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaXN0YXMyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Pistas3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaXN0YXMzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Pistas4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaXN0YXM0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Sala1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Sala2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Sala3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Home/Sala4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/EscapeRoom/TP05/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

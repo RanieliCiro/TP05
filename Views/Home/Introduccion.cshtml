@@ -1,0 +1,79 @@
+@{
+    ViewData["Title"] = "La Fuga de Alcatraz";
+}
+
+<style>
+    body {
+        background-color: #0d1b2a;
+        color: #f1faee;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 2rem;
+    }
+
+    h2 {
+        color: #e63946;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .seccion {
+        margin: 1.5rem 0;
+    }
+
+    .mapa, .pistas {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background-color: #457b9d;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        display: inline-block;
+    }
+
+    .btn:hover {
+        background-color: #1d3557;
+    }
+
+    .center {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    img {
+        width: 300px;
+        border: 3px solid #f1faee;
+        border-radius: 10px;
+    }
+</style>
+
+<h2>La Fuga Más Legendaria</h2>
+<div class="seccion">
+    <p>Junio de 1962. Frank Morris y los hermanos Anglin lograron una de las fugas más enigmáticas de Alcatraz. En esta experiencia, revivirás ese escape... pero algo inesperado ocurrirá.</p>
+</div>
+
+<div class="seccion">
+    <h3>Bitácora Encontrada</h3>
+    <p>Mientras hacías mantenimiento en el jardín, hallaste una vieja bitácora escondida con un mapa... ¿una pista o una trampa?</p>
+</div>
+
+<div class="mapa">
+    <img src="/img/mapa-alcatraz.png" alt="Mapa de la prisión" />
+</div>
+
+<div class="pistas">
+    <a class="btn" href="/Home/Pistas1">Pistas Sala 1</a>
+    <a class="btn" href="/Home/Pistas2">Pistas Sala 2</a>
+    <a class="btn" href="/Home/Pistas3">Pistas Sala 3</a>
+    <a class="btn" href="/Home/Pistas4">Pistas Sala 4</a>
+</div>
+
+<div class="center">
+    <a class="btn" href="/Home/Error">Continuar...</a>
+</div>
