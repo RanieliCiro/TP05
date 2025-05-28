@@ -1,63 +1,39 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using TP05.Models;
+using Microsoft.AspNetCore.Http;
 
-namespace TP05.Controllers;
-
-public class HomeController : Controller
+namespace TP05.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
-
-     public IActionResult Index()
+        public IActionResult Index()
         {
             return View();
         }
 
-        // INTRODUCCIÓN + MAPA + BOTÓN TRAMPA
-        public IActionResult Introduccion()
+        [HttpGet]
+        public IActionResult Identificacion()
         {
             return View();
         }
 
-        // PÁGINA TRAMPA CON CONTADOR
-        public IActionResult Error()
-        {
-            return View();
-        }
-
-        // SALAS DEL ESCAPE (se completarán con lógica de validación después)
-        public IActionResult Sala1() => View();
-        public IActionResult Sala2() => View();
-        public IActionResult Sala3() => View();
-        public IActionResult Sala4() => View();
-
-        // PISTAS POR SALA
-        public IActionResult Pistas1() => View();
-        public IActionResult Pistas2() => View();
-        public IActionResult Pistas3() => View();
-        public IActionResult Pistas4() => View();
-
-        // BITÁCORA (si querés mostrar el progreso)
-        public IActionResult Bitacora()
-        {
-            return View();
-        }
-
-        // EJEMPLO PARA USAR SESSION CON NOMBRE DE JUGADOR
         [HttpPost]
-        public IActionResult GuardarNombre(string nombre)
+        public IActionResult Identificacion(string nombreJugador)
         {
-            if (!string.IsNullOrEmpty(nombre))
+            if (string.IsNullOrWhiteSpace(nombreJugador))
             {
-                HttpContext.Session.SetString("Jugador", nombre);
-                return RedirectToAction("Sala1");
+                ViewBag.Error = "Por favor ingresá tu nombre.";
+                return View();
             }
 
-            return RedirectToAction("Index");
+            HttpContext.Session.SetString("NombreJugador", nombreJugador);
+            return RedirectToAction("Introduccion");
         }
+
+        public IActionResult Introduccion()
+        {
+            string nombre = HttpContext.Session.GetString("NombreJugador");
+            ViewBag.NombreJugador = nombre;
+            return View();
+        }
+    }
 }

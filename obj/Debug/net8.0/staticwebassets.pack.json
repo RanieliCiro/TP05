@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\EscapeRoom\\TP05\\wwwroot\\img\\portada.png",
+      "PackagePath": "staticwebassets\\img\\portada.png"
+    },
+    {
       "Id": "Z:\\EscapeRoom\\TP05\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

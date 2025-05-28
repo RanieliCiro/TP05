@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YDAIJpo0kk79h2l4gnAcfUlfELFIdp44PomflrSdvUs=",
+  "Hash": "+rTdVlB1Uhu4IxFtIFfGKFVOHRBNBJESgX+xhecJxwk=",
   "Source": "TP05",
   "BasePath": "_content/TP05",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "Z:\\EscapeRoom\\TP05\\wwwroot\\img\\portada.png",
+      "SourceId": "TP05",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\EscapeRoom\\TP05\\wwwroot\\",
+      "BasePath": "_content/TP05",
+      "RelativePath": "img/portada.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\portada.png"
     },
     {
       "Identity": "Z:\\EscapeRoom\\TP05\\wwwroot\\js\\site.js",
